@@ -464,6 +464,22 @@ void intro()
 	cin.get();
 }
 
+
+
+
+void account::information()
+{
+	cout<<"\nEnter The account No. : ";
+	cin>>acno;
+	cout<<"\n\nEnter The Name of The account Holder : ";
+	cin.ignore();
+	cin.getline(name,30);
+	cout<<"\nEnter Type of The account : ";
+	cin>>type;
+	type=toupper(type);
+	cout<<"\n\n\nAccount Information is:";
+}
+
 //***************************************************************
 //    			END OF PROJECT
 //***************************************************************
